@@ -1,0 +1,249 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+.Menu {
+  background-color: #323439;
+  max-width: 300px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.logo {
+  width: 100%;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.item {
+  width: 100%;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  color: #8f9091;
+}
+
+.item a {
+  padding-left: 20px;
+  display: inline-flex;
+  text-decoration: none;
+  color: #8f9091;
+}
+
+.item:hover {
+  color: #fff;
+}
+.item:hover a {
+  color: #fff;
+}
+
+.item {
+  padding-bottom: 25px;
+}
+.active a {
+  color: white;
+}
+.active {
+  color: white;
+}
+.PageContent {
+  max-width: 1980px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.content-container {
+  max-width: 1000px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.DocumentList {
+  max-width: 1080px;
+  width: 100%;
+  max-height: 800px;
+  height: 100%;
+  background: #fff;
+  padding-top: 50px;
+  margin: auto;
+}
+.box {
+  width: 150px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  float: left;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s ease-in-out;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.upload {
+  width: 150px;
+  height: 180px;
+  margin: 20px;
+  float: left;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #8ee2ce;
+}
+
+.upload:hover {
+  transform: scale(1.1);
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  max-width: 700px;
+  width: 100%;
+  height: 56px;
+  border: 2px solid #8ee2ce;
+  border-radius: 25px;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.searchText {
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.searchText:focus {
+  outline: none;
+}
+.icon {
+  top: -4%;
+  position: relative;
+  background: #8ee2ce;
+  color: white;
+  border-radius: 0 25px 25px 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textContent {
+  height: 129px;
+  overflow-y: hidden;
+}
+.editOption {
+  display: flex;
+  width: 100%;
+  height: 54px;
+  padding-top: 16.5px;
+  justify-content: space-around;
+  color: #8ee2ce;
+  border-top: 1px solid #8f9091;
+  font-size: 20px;
+}
+.trash-btn:hover {
+  transform: scale(1.2);
+}
+.edit-btn:hover {
+  transform: scale(1.2);
+}
+
+.Account-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  font: 16px arial;
+  gap: 30px;
+}
+.userinfo {
+  display: flex;
+  max-width: 250px;
+  width: 100%;
+}
+.update {
+  padding-left: 50px;
+  color: blue;
+  cursor: pointer;
+}
+.update:hover {
+  text-decoration: underline;
+}
+.pass {
+  -webkit-text-security: disc;
+}
+.Premium-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+}
+.Premium-box {
+  display: flex;
+  width: 250px;
+  height: 350px;
+  flex-direction: column;
+  margin: 20px;
+  float: left;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  word-wrap: break-word;
+  /* Set the initial size, opacity, and order of the boxes */
+  transform: scale(0.8);
+  opacity: 0.5;
+  order: 0;
+}
+
+button {
+  margin: 20px;
+}
+
